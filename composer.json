@@ -2,6 +2,7 @@
     "name": "vinzent/mautic-yourls-bundle",
     "description": "YOURLS for Mautic",
     "type": "mautic-plugin",
+    "license": "MIT",
     "keywords": [
         "mautic",
         "plugin",
