@@ -1,0 +1,18 @@
+{
+    "name": "vinzent/mautic-yourls-bundle",
+    "description": "YOURLS for Mautic",
+    "type": "mautic-plugin",
+    "keywords": [
+        "mautic",
+        "plugin",
+        "integration"
+    ],
+    "require": {
+        "php": ">=8.0",
+        "mautic/core-lib": "^5.0"
+    },
+    "extra": {
+        "install-directory-name": "MauticYourlsBundle"
+    },
+    "minimum-stability": "dev"
+}
