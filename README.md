@@ -25,3 +25,7 @@ php ./bin/console cache:clear
 ## Usage
 
 At the moment If you enable shortener service, automatically all links in sms are shortened by Yourls. 
+
+# Thanks
+
+This plugin is based on the work of https://github.com/Webmecanik/mautic-bitly-bundle/
