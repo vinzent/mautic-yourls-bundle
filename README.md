@@ -2,15 +2,19 @@
 
 Yourls integration for Mautic.
 
+Yourls Homepage: https://yourls.org/
+
 Note: this plugin require Mautic 5.0.0 
 
 ## Installation
 
 By composer 
 
+```
 composer require vinzent/mautic-yourls-bundle
 php ./bin/console mautic:plugins:reload
 php ./bin/console cache:clear
+```
 
 ## Setup
 
