@@ -31,13 +31,9 @@ class YourlsService implements ShortenerServiceInterface
         }
 
         try {
-            $response = $this->connection->shortenUrl($url);
-            $content  = json_decode($response->getBody()->getContents(), true);
-
-            return $content['link'] ?? $url;
+            return $this->connection->getShortUrl($url);
         } catch (GuzzleException|ClientExceptionInterface|RedirectionExceptionInterface|ServerExceptionInterface $e) {
             $this->logger->error($e->getMessage());
-
             return $url;
         }
     }

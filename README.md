@@ -8,16 +8,15 @@ Note: this plugin require Mautic 5.0.0
 
 By composer 
 
-`composer require vinzent/mautic-yourls-bundle`
-
-Manually from GitHub
-
-https://github.com/vinzent/mautic-yourls-bundle
+composer require vinzent/mautic-yourls-bundle
+php ./bin/console mautic:plugins:reload
+php ./bin/console cache:clear
 
 ## Setup
 
 1. Get secret access token from https://yourlsite/admin/tools.php
 2. Verify your API URL: https://yourlssite/yourls-api.php (should get you a "Please login" message)
+3. Enable plugin on https://yourmauticsite/s/plugins
 
 ## Usage
 
