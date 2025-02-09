@@ -21,6 +21,7 @@ php ./bin/console cache:clear
 1. Get secret access token from https://yourlsite/admin/tools.php
 2. Verify your API URL: https://yourlssite/yourls-api.php (should get you a "Please login" message)
 3. Enable plugin on https://yourmauticsite/s/plugins
+4. Go to Configuration > System Settings > Shortener service and set Yourls as default shortener service
 
 ## Usage
 
