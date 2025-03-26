@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": ">=8.0",
-        "mautic/core-lib": "^5.0"
+        "mautic/core-lib": ">=5.2"
     },
     "extra": {
         "install-directory-name": "MauticYourlsBundle"
